@@ -1,0 +1,15 @@
+[versions]
+
+android-gradleplugin = "7.3.0"
+kotlin = "1.7.20"
+
+[libraries]
+
+androidX-testRunner = { group = "androidx.test", name = "runner",  version = "1.5.2" }
+
+[plugins]
+
+android-library = { id = "com.android.library", version.ref = "android-gradleplugin" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+cklib = { id = "co.touchlab.cklib", version = "0.2.4" }
